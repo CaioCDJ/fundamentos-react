@@ -1,0 +1,10 @@
+table{
+    width: 100%;
+}
+
+table .Par{
+    background-color:#2a2828 ;
+}
+table .Impar{
+    background-color: #3b3a3a;
+}
