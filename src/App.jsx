@@ -15,6 +15,8 @@ import ListaAlunos from "./components/repeticao/ListaAlunos";
 import ListaProdutos from "./components/repeticao/ListaProdutos";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
+import DiretaPai from "./components/comunicacao/DiretaPai";
+import IndiretaPai from "./components/comunicacao/IndiretaPai";
 
 export default () =>(
         
@@ -22,6 +24,14 @@ export default () =>(
         <h2>Fundamentos React</h2>
 
         <div className="Cards" >
+
+        <Card titulo="Comunicação indireta">
+            <IndiretaPai></IndiretaPai>
+        </Card>
+
+        <Card titulo="Comunicação direta" color="">
+            <DiretaPai></DiretaPai>
+        </Card>
 
         <Card titulo="Renderização Condicional" color="#e3812b">
             <ParOuImpar numero={20}></ParOuImpar>

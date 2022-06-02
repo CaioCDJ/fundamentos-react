@@ -2,6 +2,7 @@ table{
     width: 100%;
 }
 
+thead{color:  white;}
 table .Par{
     background-color:#2a2828 ;
 }
