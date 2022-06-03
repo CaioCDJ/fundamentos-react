@@ -18,6 +18,7 @@ import UsuarioInfo from "./components/condicional/UsuarioInfo";
 import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import Input from "./components/formulario/Input";
+import Contador from "./components/contador/Contador";
 
 export default () =>(
         
@@ -26,6 +27,10 @@ export default () =>(
 
         <div className="Cards" >
 
+        <Card titulo ="Contador">
+            <Contador numeroInicial={10}></Contador>
+        </Card>
+        
         <Card titulo="Componente controlado">
             <Input></Input>
         </Card>
