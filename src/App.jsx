@@ -19,6 +19,7 @@ import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import Input from "./components/formulario/Input";
 import Contador from "./components/contador/Contador";
+import Mega from "./components/mega/Mega";
 
 export default () =>(
         
@@ -26,7 +27,10 @@ export default () =>(
         <h2>Fundamentos React</h2>
 
         <div className="Cards" >
-
+        
+        <Card>
+            <Mega qtde={8} ></Mega>
+        </Card>
         <Card titulo ="Contador">
             <Contador numeroInicial={10}></Contador>
         </Card>
